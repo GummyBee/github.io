@@ -280,16 +280,6 @@ $header.innerHTML = `<nav class="aa-nav">
 </div>`;
 document.body.prepend($header);
 
-const $footer = document.createElement("div");
-$footer.setAttribute("class", "footer");
-$footer.innerHTML = `<a class="link underline" href="https://github.com/EmulatorOS/EmulatorOS.github.io">G&#173;it&#173;h&#173;ub</a>
-
-<a class="link underline" href="/credits">Credits</a>
-<a class="link underline" href="/terms">Terms</a>
-<a class="link underline" href="/privacy" style="margin-right: 14px;">Privacy</a>
-
-<p class="at">© Emulator&#173;OS 2021-</p> <p id="yearp"></p>`;
-document.body.append($footer);
 
 yearset = new Date().getFullYear();
 const yearp = document.getElementById("yearp");
